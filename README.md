@@ -209,6 +209,22 @@ This project reinforced how effective data preparation can allow a simple model 
 
 ---
 
+## Business Recommendations
+
+Based on the findings from this analysis, the following actions are recommended:
+
+1. Improve customer satisfaction through proactive engagement and support initiatives.
+
+2. Encourage adoption of longer-term contracts through incentives and loyalty programs.
+
+3. Promote Online Security and Premium Tech Support services as retention tools.
+
+4. Identify high monthly charge customers for targeted retention campaigns.
+
+5. Expand referral programs to increase customer engagement and loyalty.
+
+---
+
 ##  Technologies Used
 
 - Python
