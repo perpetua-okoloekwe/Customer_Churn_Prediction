@@ -21,6 +21,26 @@ Logistic Regression achieved the best overall performance with:
 The project demonstrates how careful data preparation and feature selection can significantly impact machine learning performance.
 ---
 
+## 📂 Project Structure
+
+```text
+Customer-Churn-Prediction/
+│
+├── README.md
+│
+├── images/
+│   ├── Churn Distribution.png
+│   ├── Missing Values.png
+│   ├── Satisfaction Score vs Churn.png
+│   ├── Contract vs Churn.png
+│   ├── Logistic Regression Confusion Matrix.png
+│   ├── Model Comparison.png
+│   └── Top Predictors.png
+│
+└── notebooks/
+    └── Customer_Churn_Prediction.ipynb
+```
+
 ##  Business Problem
 
 Telecommunication companies invest significant resources in acquiring customers.
@@ -54,6 +74,48 @@ The ability to identify customers at risk of churning allows businesses to proac
 | Churn | 1,869 |
 
 The dataset exhibits moderate class imbalance, making evaluation metrics such as Precision, Recall, F1 Score, and ROC-AUC particularly important.
+
+---
+
+## 🏆 Quick Results
+
+### Best Model: Logistic Regression
+
+| Metric | Score |
+|---------|---------:|
+| Accuracy | 96.17% |
+| Precision | 95% |
+| Recall | 90% |
+| F1 Score | 93% |
+| ROC-AUC | 0.992 |
+
+### Key Takeaways
+
+- Logistic Regression outperformed Random Forest
+
+- Customer Satisfaction was the strongest predictor of churn
+
+- Longer contracts were associated with lower churn
+
+- Higher monthly charges were associated with increased churn risk
+
+- Careful data preparation contributed significantly to model performance
+  
+---
+
+## 📊 Project Visualizations
+
+### Churn Distribution
+
+images/Churn%20Distribution.png
+
+### Model Comparison
+
+images/Model%20Comparison.png
+
+### Top Predictors of Churn
+
+images/Top%20Predictors.png
 
 ---
 
