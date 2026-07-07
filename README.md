@@ -2,12 +2,23 @@
 
 ##  Project Overview
 
-Customer churn is a major challenge for telecom companies because losing customers directly impacts revenue and business growth.
+This project aims to predict customer churn in a telecom company using machine learning.
 
-The goal of this project is to identify factors associated with customer churn and build machine learning models capable of predicting customers who are likely to leave.
+Using the IBM Telco Customer Churn dataset, I explored customer behavior, investigated missing values, removed data leakage, engineered features, and trained machine learning models to identify customers likely to leave.
 
-Using the IBM Telco Customer Churn dataset, I performed exploratory data analysis, investigated missing values, removed data leakage, engineered features, and compared multiple machine learning models to determine the most effective approach for churn prediction.
+Two models were evaluated:
 
+- Logistic Regression
+- Random Forest
+
+Logistic Regression achieved the best overall performance with:
+
+- Accuracy: 96.17%
+- Precision: 95%
+- Recall: 90%
+- ROC-AUC: 0.992
+
+The project demonstrates how careful data preparation and feature selection can significantly impact machine learning performance.
 ---
 
 ##  Business Problem
