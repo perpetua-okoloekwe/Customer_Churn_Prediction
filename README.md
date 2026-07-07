@@ -21,7 +21,7 @@ Logistic Regression achieved the best overall performance with:
 The project demonstrates how careful data preparation and feature selection can significantly impact machine learning performance.
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Customer-Churn-Prediction/
@@ -77,7 +77,7 @@ The dataset exhibits moderate class imbalance, making evaluation metrics such as
 
 ---
 
-## 🏆 Quick Results
+##  Quick Results
 
 ### Best Model: Logistic Regression
 
@@ -103,19 +103,19 @@ The dataset exhibits moderate class imbalance, making evaluation metrics such as
   
 ---
 
-## 📊 Project Visualizations
+##  Project Visualizations
 
 ### Churn Distribution
 
-images/Churn%20Distribution.png
+images/churn_distribution.png
 
 ### Model Comparison
 
-images/Model%20Comparison.png
+images/model_comparison.png
 
 ### Top Predictors of Churn
 
-images/Top%20Predictors.png
+images/top_predictors.png
 
 ---
 
