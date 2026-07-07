@@ -28,14 +28,20 @@ Customer-Churn-Prediction/
 │
 ├── README.md
 │
+├── data/
+│   └── telco_customer_churn_cleaned.csv
+│
 ├── images/
-│   ├── Churn Distribution.png
+│   └── Churn Distribution.png
 │   ├── Missing Values.png
 │   ├── Satisfaction Score vs Churn.png
 │   ├── Contract vs Churn.png
 │   ├── Logistic Regression Confusion Matrix.png
 │   ├── Model Comparison.png
 │   └── Top Predictors.png
+│
+├── model/
+│   └── log_reg_model.pkl
 │
 └── notebooks/
     └── Customer_Churn_Prediction.ipynb
