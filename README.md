@@ -103,19 +103,19 @@ The dataset exhibits moderate class imbalance, making evaluation metrics such as
   
 ---
 
-## 📊 Project Visualizations
+##  Project Visualizations
 
 ### Churn Distribution
 
-images/Churn_Distribution.png
+![Churn Distribution](images/Churn_Distribution.png)
 
 ### Model Comparison
 
-images/Model_Comparison.png
+![Model Comparison](images/Model_Comparison.png)
 
 ### Top Predictors of Churn
 
-images/Top_Predictors.png
+![Top Predictors](images/Top_Predictors.png)
 
 ---
 
