@@ -292,28 +292,81 @@ Based on the findings from this analysis, the following actions are recommended:
 5. Expand referral programs to increase customer engagement and loyalty.
 
 ---
+## Streamlit Web Application
 
-##  Technologies Used
+To make the churn prediction model accessible to non-technical users, a Streamlit web application was developed and integrated with the trained Logistic Regression model.
 
-- Python
+### Application Features
+
+- Interactive customer input form
+- Real-time churn prediction
+- Churn risk probability score
+- Customer retention recommendations
+- Automated preprocessing and feature scaling
+
+### Application Workflow
+
+Customer Information
+↓
+Preprocessing
+↓
+Feature Scaling
+↓
+Logistic Regression Model
+↓
+Churn Prediction
+↓
+Business Recommendation
+
+The application enables business users to assess customer churn risk and take proactive retention actions without requiring machine learning expertise.
+
+### Application Files
+
+```text
+Streamlit_app/
+├── app.py
+├── requirements.txt
+├── log_reg_model.pkl
+├── scaler.pkl
+└── feature_columns.pkl
+
+---
+
+## Technologies Used
+
+### Data Analysis & Visualization
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
+
+### Machine Learning
+- Scikit-learn (Logistic Regression)
+
+### Application Development
+- Streamlit
+
+### Development Environment
+- Python
 - Google Colab
+
+### Version Control & Deployment
+- GitHub
+- Streamlit Community Cloud
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
 Potential future enhancements include:
 
-- Hyperparameter tuning
-- Gradient Boosting (XGBoost, LightGBM)
+- Hyperparameter tuning for improved model performance
+- Gradient Boosting models (XGBoost, LightGBM) for comparison
 - Neural Network implementation
-- Streamlit deployment
-- Interactive churn prediction dashboard
+- Customer segmentation and personalized retention strategies
+- Model monitoring and performance tracking
+- Cloud deployment and scalability enhancements
+- Explainable AI (XAI) features to provide prediction explanations
 
 ---
 
