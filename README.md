@@ -329,8 +329,7 @@ Streamlit_app/
 ├── log_reg_model.pkl
 ├── scaler.pkl
 └── feature_columns.pkl
-
----
+```
 
 ## Technologies Used
 
@@ -353,21 +352,6 @@ Streamlit_app/
 ### Version Control & Deployment
 - GitHub
 - Streamlit Community Cloud
-
----
-
-## Future Improvements
-
-Potential future enhancements include:
-
-- Hyperparameter tuning for improved model performance
-- Gradient Boosting models (XGBoost, LightGBM) for comparison
-- Neural Network implementation
-- Customer segmentation and personalized retention strategies
-- Model monitoring and performance tracking
-- Cloud deployment and scalability enhancements
-- Explainable AI (XAI) features to provide prediction explanations
-
 ---
 
 ##  Author
