@@ -354,6 +354,13 @@ Streamlit_app/
 - Streamlit Community Cloud
 ---
 
+## Live Demo
+
+🔗 [Customer Churn Prediction Web App](https://customerchurnprediction-ffb5xbecflnbxesnnqwhhp.streamlit.app/)
+
+Try the deployed Streamlit application to generate real-time customer churn predictions and business recommendations.
+---
+
 ##  Author
 
 **Perpetua Okoloekwe**
